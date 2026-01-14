@@ -3,9 +3,10 @@ name: Super-Linter
 on: push
 
 jobs:
-  super-lint:
-    name: Lint code base
-    runs-on: ubuntu-latest
+  test:
+    steps:
+      - name: 24ds3000006@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
